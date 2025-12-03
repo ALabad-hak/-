@@ -36,7 +36,7 @@ public class RoomManager {
  
     // ⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂
     // The First Method (Addittion)
-    //⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂    // int NameOfPerson,//  boolean isOccupied,//
+    //⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂⁂    
  public void addRoom(int NumberOfRoom ,int NumberOfFloor,  int NumberOfPersons, double basePrice, String roomType) { 
     Room Check_the_room = findRoomByNumber(NumberOfRoom);
     

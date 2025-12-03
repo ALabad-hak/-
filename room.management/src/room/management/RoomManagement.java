@@ -31,10 +31,7 @@ public class RoomManagement {
     
     // Initialization.
     public RoomManagement() {
-      manager.addRoom(99,1,2,0.0d,"roo-type");
-      manager.addRoom(5,1,3,150.0d,"Standard Room");
-      manager.addRoom(24,4,5,200.0d,"Deluxe Room");
-      manager.addRoom(60,7,7,388.0d,"Connecting Room");
+      manager.addRoom(0,0,0,0.0d,"roo-type");
   }
     
     public void start() {
@@ -50,15 +47,15 @@ public class RoomManagement {
            executeChoice(choice);
         }
         while(choice != 0);
-//                input.close();
+                input.close();
                System.out.println("Thank you for using the system.");                
     }
 
     private void displayMenu() {
     System.out.println("✨✨✨✨✨✨✨✨");
-    System.out.println("✨          ✨");
-    System.out.println("✨ Main menu✨");
-    System.out.println("✨          ✨");
+    System.out.println("✨           ✨");
+    System.out.println("✨ Main menu ✨");
+    System.out.println("✨           ✨");
     System.out.println("✨✨✨✨✨✨✨✨");
         System.out.println("1. Add a new room ");
         System.out.println("2. View all rooms");
@@ -217,9 +214,9 @@ public class RoomManagement {
     }
     
     private void handleUpdatePrice() {
-        System.out.println("***********************");
-        System.out.println("Room price adjustment");
-        System.out.println("***********************");
+        System.out.println("*************************");
+        System.out.println("-Room price adjustment-");
+        System.out.println("*************************");
         System.out.print("Enter the room number for which you want to adjust the price.");
         int number = input.nextInt();
         System.out.print("Enter the new price ");
@@ -245,9 +242,9 @@ public class RoomManagement {
     }
     
     private void handleUnbook() {
-        System.out.println("******************");
+        System.out.println("********************************");
         System.out.println("--Unbook a room (Check-out)--");
-        System.out.println("******************");
+        System.out.println("********************************");
         System.out.print("Enter the room number for check-out: ");
         
         if (input.hasNextInt()) { 
@@ -286,6 +283,7 @@ public class RoomManagement {
 //System.out.println("|🎓 For more details,           |") ;
 //System.out.println("|     please contact us :       |") ;
 //System.out.println("|   ✅albad107aam@gmail.com .   |") ;
-//System.out.println("|   ✅773127190.                |") ;
+//System.out.println("|✅https://github.com/ALabad-hak |") ;
+//System.out.println("|    /-/tree/master (Github)     |") ;
 //System.out.println("|       ❤Thanks❤               |") ;
 //System.out.println("|-------------------------------|") ;
